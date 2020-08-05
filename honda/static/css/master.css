@@ -1,0 +1,237 @@
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  padding: 5px 0 5px 0;
+}
+
+.chat{
+  margin: auto;
+  background: inherit;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  border: 4px solid black ;
+  border-radius: 40px;
+  padding: 4px 4px 4px 4px;
+  position:relative;
+}
+
+.in-block{
+  margin: 1px;
+  background-color: rgba(255,255,255, 0.4);
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 40px;
+
+  position: relative;
+  display: block;
+  flex-direction: column;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+.chat-area{
+  display: flex;
+  background-color: transparent;
+  height: 65%;
+  min-height: 65%;
+  width: 100%;
+  flex-direction: column;
+  padding: 10px 10px 10px 0px;
+}
+
+.company-name{
+  margin: auto;
+  background-color: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 2px;
+}
+
+.company-name p{
+  background: rgb(255,0,0);
+  padding: 5px 10px 5px 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+
+.chat-box{
+  overflow-y: scroll;
+  /* height: 100%; */
+  flex: 1;
+
+}
+*::-webkit-scrollbar{
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track{
+  background-color: rgba(255,255,255,0.5);
+}
+
+*::-webkit-scrollbar-thumb{
+  background: rgba(0,0,0,0.5);
+  border-radius: 2px;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+  background: #555;
+  border-radius: 5px;
+
+}
+/*
+*::-webkit-scrollbar{
+  width: 5px;
+} */
+
+.text-area{
+  display: flex;
+  background:transparent;
+  height: 40px;
+  width: 100%;
+  position: sticky;
+  bottom: 2px;
+  vertical-align: bottom;
+}
+
+.submit{
+  display: flex;
+  background: transparent;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.inner-text{
+  display: flex;
+  background: transparent;
+  margin: 5px;
+  border-radius: 20px;
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+}
+
+.msg{
+  display: flex;
+  background: transparent;
+  margin: 5px 0px 5px 0px;
+  padding: 5px 10px 5px 10px;
+}
+
+.msg img{
+  width: 100%;
+  border-radius: inherit;
+}
+
+.sp{
+  flex:1;
+}
+.mess{
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+}
+.mess-l{
+  float: left;
+  background: rgba(255,255,255,0.5);
+  color: black;
+}
+
+.mess-r{
+  float: right;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.features{
+  font-size: 10px;
+  color: red;
+}
+
+.op{
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  height: 35%;
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  padding: 10px 0 5px 0;
+}
+
+
+
+.li-button{
+  width: 80%;
+  height: 40px;
+  background: rgba(255,255,255,0.5);
+  color: red;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  transition-duration: 0.5s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,0.4);
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  justify-content: center;
+}
+
+.li-button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.li-button::after {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.new-li-button{
+  /* width: 200px; */
+  height: 100%;
+  display: inline;
+  background: white;
+  margin: 10px;
+  padding: 5px;
+  justify-content: center;
+}
+
+.new-li-button img{
+  width: 200px;;
+  height: 80%;
+  background-color: black;
+}
+
+.wrapper{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.horizontal{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+}
+
+.vertical{
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}

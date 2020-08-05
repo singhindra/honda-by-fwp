@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Splash test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/master.css' %}"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body background = "{% static 'images/honda.jpg' %}"/">
+    <div class="container">
+      <div class="row">
+        <div class="col col-lg-4 col-md-6 col-xs-12 chat">
+          <div class="in-block">
+            <div class="chat-area">
+            <div class="chat-box">
+              <div class="company-name"><p>Company name</p></div>
+              <ul id="msgs">
+
+
+              </ul>
+            </div>
+              <div class="text-area">
+                <input type="text" id="newMsg" class="inner-text" placeholder="Enter your text...">
+                <input type="button" id = "send" class="submit" onclick="ch_msg()">
+              </div>
+            </div>
+
+            <div class="op" >
+              <ul id="options" class="vertical">
+                <li class="li-button" onclick="chat(this)">Sales</li>
+                <li class="li-button" onclick="chat(this)">Service</li>
+                <li class="li-button" onclick="chat(this)">Insurence</li>
+                <li class="li-button" onclick="chat(this)">Call Helpline</li>
+                <!-- <li class="new-li-button">
+                  <img src="{% static 'images/honda.jpg'%}" alt="">
+                  <p>Model Name here</p>
+                </li>
+                <li class="new-li-button">
+                  <img src="{% static 'images/honda.jpg'%}" alt="">
+                  <p>Model Name here</p>
+                </li>
+                <li class="new-li-button">
+                  <img src="{% static 'images/honda.jpg'%}" alt="">
+                  <p>Model Name here</p>
+                </li>
+                <li class="new-li-button">
+                  <img src="{% static 'images/honda.jpg'%}" alt="">
+                  <p>Model Name here</p>
+                </li>
+                <li class="new-li-button">
+                  <img src="{% static 'images/honda.jpg'%}" alt="">
+                  <p>Model Name here</p>
+                </li>  -->
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <input type="hidden" id="myVar" name="variable" value="{{ data }}">
+    <script type="text/javascript" src="{% static 'js/new.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "welcome":
+  {"chat":
+    ["_static/images/welcome.webp",
+       "Hi there! I am Aaroohi your well wisher from elegent Honda",
+        "Visit our Location",
+         "To begin with please select service you are intrested in "],
+  "options":
+    ["Sales",
+      "Service",
+      "Insurence",
+      "Call Helpline"]
+  },
+  "Sales":
+  {"chat":
+    ["perfect let me quickly help you with the categories we have to choose from:",
+       "_image",
+        "Now you can choose your favorite Honda 2 wheeler category from the list"],
+   "options":
+    ["category_list"]
+    },
+  "Model select":
+  {"chat":
+    ["_img_of_model",
+       "Don't believe us then have a look at its features",
+        "Features", "or you can check out the video below",
+         "video"],
+   "options":
+      ["Know the colors", "Get Brochure", "Book you Demo & ride", "Know the finance", "Book your model", "Speak to Sales"]
+   },
+  "know the colors":
+    {"chat":
+       ["currently we are having 4 colors available in this",
+          "click on favorite variant to proceed"], "options": ["colors_list"]}, "Choosing a color": {"chat": ["_gif", "Thats a great choice", "So how would you like to proceed"], "options": ["Get Brochure", "Book you Demo & ride", "Know the finance", "Book your model", "Speak to Sales"]}, "Get Brochure": {"chat": ["let me pull out the Brochure for you", "Brochure", "Here are the technical specifications for the same.", "You can download the full Brochure from the link below", "So how would you like to proceed now"], "options": ["Download full Brochure", "Book your Demo & ride", "Know about finance", "Book your model", "Speak to Sales"]}, "Download full Brochure": {"chat": [["name"]], "options": ["Download link brochure link", "Go to Main Menu"]}, "Go to Main Menu": {"chat": ["Sure, I can help you with that", "Please select a service you are interested in.."], "options": ["Sales", "Service", "Insurence"]}, "Book you Demo & Ride": {"chat": ["Sounds like a plan", "To book a test drive I would be needing few details from your end", ["name", "location", "mail", "phone", "call"]]}, "Know about finance": {"chat": ["We are having more than 10 finance allinaces that will help you in buying your dream vehicle", "For that we need some details from your end", ["name", "location", "address(skipable)", "model", "Phone", "JobRole", "income", "thanks"], "You will get a call from our team very soon with best suitable finance options", "dealership address", "Have a nice day ahead", "."]}, "Book your Model": {"chat": ["You are one step near from your Honda 2 Wheeler", "And for that I need few details from your end", ["name", "location", "address_proof", "phone", "call"]]}, "Service": {"chat": ["Great let me quickly arrange a call for you with our agent who will share more info with you", ["name", "phone", "mail", "call"]]}, "Insurence": {"chat": ["Great let me quickly arrange a call for you with our agent who will share more info with you", ["name", "phone", "mail", "call"]]}, "name": {"chat": ["For furter help I need some details from your side", "May I have your name please"], "options": ["input"]}, "phone": {"chat": ["Great! Now can I get your phone number, to get a better touch with you "], "options": ["input"]}, "mail": {"chat": ["now may i have your mail, so that i can send you some documents in response"], "options": ["input"]}, "location": {"chat": ["Thanx for your responses", "Now share your location with us to let you know better"], "options": ["input"]}, "Motorcycle": {"chat": {"chat": ["_img_of_model", "Don't believe us then have a look at its features", "Features", "or you can check out the video below", "video"], "options": ["Know the colors", "Get Brochure", "Book you Demo & ride", "Know the finance", "Book your model", "Speak to Sales"]}}}
